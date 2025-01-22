@@ -55,11 +55,12 @@ Below are the core sections of this workshop, each focusing on different aspects
 
    01_intro.rst
    02_intro_to_fiji.rst
-   03_segmentation_1.rst
-   04_segmentation_2.rst
-   05_morphology.rst
-   06_segmentation_measurements.rst
-   07_spot_detection.rst
+   03_thresholding.rst
+   04_filtering.rst
+   05_labkit.rst
+   06_morphology.rst
+   07_segmentation_measurements.rst
+   08_spot_detection.rst
    
 
 **Exercises**
