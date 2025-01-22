@@ -1,4 +1,4 @@
-Image segmentation (1)
+Image segmentation - Thresholding
 ========================
 
 .. raw:: html

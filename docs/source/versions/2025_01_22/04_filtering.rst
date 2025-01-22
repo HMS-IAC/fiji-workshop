@@ -1,4 +1,4 @@
-Image segmentation (2)
+Image segmentation - Filtering
 ========================
 
 .. raw:: html
