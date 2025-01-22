@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Automatically detect all versions in the docs/source/versions/ directory
-VERSIONS=($(ls -d docs/source/versions/* | xargs -n 1 basename | sort -r))
+VERSIONS=($(ls -d ./source/versions/* | xargs -n 1 basename | sort -r))
 
 # Display a message before starting the build process
 echo "========================================="
@@ -16,7 +16,7 @@ for version in "${VERSIONS[@]}"; do
   export CURRENT_VERSION=$version
   
   # Run sphinx-build with the root conf.py, specifying the source and build directories
-  sphinx-build -b html "docs/source/versions/$version" "docs/build/versions/$version" -c "docs/source"
+  sphinx-build -b html "./source/versions/$version" "./build/versions/$version" -c "./source"
   
   if [ $? -eq 0 ]; then
     echo "Successfully built: $version"
@@ -27,7 +27,7 @@ for version in "${VERSIONS[@]}"; do
 done
 
 # Path to the build directory
-BUILD_DIR="docs/build"
+BUILD_DIR="./build"
 
 # Get the latest version (first item in the array)
 LATEST_VERSION=${VERSIONS[0]}
