@@ -40,7 +40,7 @@ The following materials were developed for a workshop taught in-person at Harvar
 
 Here are some helpful resources to complement the workshop materials:
 
-- `Download Fiji <https://qupath.github.io/>`_
+- `Download Fiji <https://fiji.sc>`_
 - `ImageJ/Fiji documentation <https://imagej.net/ij/docs/index.html>`_
 - `The Forum <https://forum.image.sc/>`_
 
